@@ -1,0 +1,80 @@
+.meeting-sub-headings{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+.meeting-heading-1{
+    margin-right:8px;
+    border: 1px solid lightgray;
+    border-bottom: 1px solid rgb(250, 248, 248); 
+    padding: 8px;
+    border-radius: 2px;
+    margin-bottom: 100px blue;
+    position: relative;
+}
+#meeting-heading-2{
+    margin: 0 3px 0 8px;
+    border: 1px solid lightgray;
+    border-bottom: none; 
+    padding: 8px;
+    border-radius: 2px;
+
+}
+
+.meeting-main{
+    background-color: rgb(88, 194, 194);
+    height: auto;
+    padding: 15px;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+#head{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+hr{
+    background-color: lightgray;
+    border-color: lightgray;
+}
+input[type=date]{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
+input[ type=text]{
+    width: 100%;
+}
+#note{
+    color:white;
+}
+.meeting-main button{
+    background-color: rgb(9, 112, 153);
+    color: white;
+}
+option{
+    width: 100%;
+}
+#select-date{
+    width: 100%;
+}
+.search-criteria{
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 0 30px 0 15px;
+}
+#button-excuse{
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+}
+#button-add{
+    background-color:rgb(9, 112, 153);;
+    color: white;
+    border-radius: 2px;
+}
+.search-meetins{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}

@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/external/normalize.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/utils.css">
+    <link rel="stylesheet" href="/css/Meetings.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav-main">
+        <div class="navbar">
+            <ul class="nav-links list-unstyled">
+                <li><a href="/index.html">Calendar</a></li>
+                <li><a href="/Meetings.html">Meetings</a></li>
+                <li><a href="/teams.html">Teams</a></li>
+            </ul>
+            <div class="navbar-right">
+                <ul class="right-ul">
+                    <div class="right">
+                        <li style="margin-right:0;">Hello <span>jon.doe@example.com!</span></li>
+
+                        <li><a href="/login-page.html">Logout</a></li>
+                        
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <main>
+        <div class="container-main">
+            <h2>Meetings</h2>
+            <hr>
+        </div>
+        <div class="container-main meeting-sub-headings">
+            <div class="meeting-heading-1"><a href="Meetings.html">Filter/Search meetings</a></div>
+            <div><a href="Add a Meeting.html">Add a meeting</a></div>
+        </div>
+        <div class="container-main meeting-main">
+            <div id="head">Add a new meeting</div>
+            <hr>
+            <form action="">
+                <label for="">Date</label>
+                <div>
+                    <select id="select-date">
+                        <option value="All">All</option>
+                        <option value="Past">Past</option>
+                        <option value="Today">Today</option>
+                        <option value="Upcoming">Upcoming</option>
+                    </select>
+                </div>
+                <br>
+                <label for="">Search for</label>
+                <textarea name="" id="" cols="30" rows="2"
+                    placeholder="Search using words which describe the meeting"></textarea>
+                <br>
+                <br>
+                <button>Search</button>
+            </form>
+        </div>
+
+        <div class="container-main">
+            <br>
+            <b> Meetings matching search criteria</b>
+            <hr>
+            <div class="search-meetings">
+                <div class="search-criteria">
+                    <p><b>12 September 2020</b> 06:00-7:00</p>
+                    <p>Project Kickoff</p>
+                    <button id="button-excuse">Excuse Yourself</button>
+                    <hr>
+                    <P><b>Attendees:</b>mark@example.com jane@example.com</P>
+                    <select>
+                        <option value="member">Select member</option>
+                    </select>
+                    <button id="button-add">Add</button>
+                </div>
+                <div class="search-criteria">
+                    <p><b>12 September 2020</b> 09:00-10:30</p>
+                    <p>AWS architecture</p>
+                    <button id="button-excuse">Excuse Yourself</button>
+                    <hr>
+                    <P><b>Attendees:</b>john@example.com jane@example.com</P>
+                    <select>
+                        <option value="member">Select member</option>
+                    </select>
+                    <button id="button-add">Add</button>
+                </div>
+            </div>
+
+        </div>
+            
+    </main>
+    
+</body>
+</html>

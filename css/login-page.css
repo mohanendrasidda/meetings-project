@@ -1,0 +1,79 @@
+.login-container{
+    height: 80%;
+    background-color:rgba(192,228,226,0.621);
+    position: relative;
+    margin-left:38%;
+    margin-right:38%;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: rgb(99,131,94);
+}
+body{
+    background-image: url('/images/main-background -image1.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.form-heading{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+.form-heading h3{
+    font-size: 1.9em;
+    color:rgba(7, 0, 0, 1);
+    font-weight: 600;
+    opacity: 1;
+}
+  
+.times{
+    float: right;
+    padding: 3px;
+    margin:5px;
+}
+.times button{
+    border-radius: 4px;
+   background-color:  green;
+}
+.form-input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 2em;
+    margin:1em;
+    opacity: 1;
+}
+input[type=text]{
+    height: 2em;
+    border-radius: 5px;
+    width: 100%;
+}
+input[type=password]{
+    height: 2em;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+}
+.form-input button{
+    width: 100px;
+}
+.form-input-forgot{
+    padding: 0 0 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.register-user-link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start
+}
+
+/*media query*/
+@media (max-width:360px){
+    
+}

@@ -1,0 +1,87 @@
+.list-unstyled{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.right a{
+text-decoration: none;
+}
+.right-ul{
+    height:0.5em;
+}
+.container-main{
+    margin: 0 105px 0 45px;
+    height: auto;
+    background-image: url('/images/main-background-image 1.jpg');
+}
+.main-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.container-main-date{
+    
+    background-color:rgb(84, 218, 218) ;
+    height: 3em;
+    margin: 2px 105px 2px 20px;
+
+}
+.container-main-date-number{
+    float: left;
+    top: 0;
+}
+.container-date-divisions{
+    margin: 0 0 0 20px;
+}
+
+
+hr{
+    background-color:  rgb(238, 238, 238);
+    height:0.01px;
+}
+
+.container-main-info{
+
+    position: relative;
+}
+#container-mark-1{
+    position:absolute;
+    top: 1px;
+    bottom: 1px;
+    right: 8px;
+    left: 8px;
+    background-color: rgb(218, 214, 214);
+    padding: 2px 3px 3px 5px;
+}
+#container-mark-1 div{
+font-size: 0.8em;
+}
+#container-mark-2{
+    position:absolute;
+    top: 1px;
+    right: 8px;
+    left: 8px;
+    background-color: rgb(218, 214, 214);
+    padding: 2px 3px 3px 5px;
+    height: 5em;
+
+}
+#container-mark-2{
+    font-size: 0.8em;
+}
+*{
+    box-sizing: border-box;
+}
+    
+html{
+    line-height: 1.15;
+}
+/*media query*/
+@media (max-width:360px){
+
+    
+}

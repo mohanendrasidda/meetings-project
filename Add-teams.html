@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/external/normalize.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/utils.css">
+    <link rel="stylesheet" href="/css/teams.css">
+    <title>Teams</title>
+</head>
+<body>
+    <nav class="nav-main">
+        <div class="navbar">
+            <ul class="nav-links list-unstyled">
+                <li><a href="/index.html">Calendar</a></li>
+                <li><a href="/Meetings.html">Meetings</a></li>
+                <li><a href="/teams.html">Teams</a></li>
+            </ul>
+            <div class="navbar-right">
+                <ul class="right-ul">
+                    <div class="right">
+                        <li style="margin-right:0;">Hello <span>jon.doe@example.com!</span></li>
+
+                        <li><a href="/login-page.html">Logout</a></li>
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <main>
+        <div class="container-main">
+            <h2>Teams</h2>
+            <hr>
+            View and edit teams you are part of
+        </div>
+        <div class="main-teams container-main class-add-team">
+            <div class="add-teams">
+                <div class="teams-times">
+                   <a href="teams.html"><button>&times;</button></a> 
+                </div>
+                <div>
+                    <h2 style="color: white;">Add a new team</h2>
+                    <hr>
+                </div>
+               <form action="">
+                   <div>
+                       <label for="Name-of-team" class="add-teams-label" >Name of  team</label>
+                       <input type="text" name="name"  class="add-teams-input" >
+                   </div>
+                   <br>
+                   
+                   <div>
+                    <label for="team-id" class="add-teams-label" >Team Id</label>
+                    <input type="text" name="team-id" class="add-teams-input" >
+                </div>
+                <br>
+                <div>
+                    <label for="description"  class="add-teams-label">description</label>
+                    <textarea name="description" class="add-teams-input" rows="2"></textarea>
+                   
+                </div>
+                <br>
+                <div>
+                    <label for="Members" class="add-teams-label" >Members</label>
+                    <input type="text" name="add-members"  class="add-teams-input" placeholder="john@example.com mark@example.com" >
+                </div>
+                <br>
+                <button style="border-radius: 5px;background-color: rgb(0, 95, 95); color: rgb(255, 255, 255);">search</button>
+
+                   
+               </form>
+
+            </div>
+            <div class="main-teams-data">
+                <p><b>Customer acquisition campaign<br><span>@customer-acquisition</span></b></p>
+                <p>
+                   <span>Team to come up with strategies to win over customer by end of FY21</span> 
+                </p>
+                <button>Excuse yourself</button>
+                <hr>
+                <p>
+                    <span><b>Members:</b> john@example.com,jane@example.com</span>
+                </p>
+                <div>
+                    <select>
+                        <option value="member">Select member</option>
+                    </select>
+                    <button>Add</button>
+                </div>
+                
+            </div>
+            <div class="main-teams-data">
+                <p><b>MERN stack training<br><span>@mern-stack-training</span></b></p>
+                <p>
+                   <span>Group attending MERN stack training for website revamp project</span> 
+                </p>
+                <button>Excuse yourself</button>
+                <hr>
+                <p>
+                    <span><b>Members:</b> jane@example.com,mark@example.com</span>
+                </p>
+                <div>
+                    <select>
+                        <option value="member">Select member</option>
+                    </select>
+                    <button>Add</button>
+                </div>
+            </div>
+            <div class="main-teams-data add-team">
+               <span><a href="">+</a></span>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

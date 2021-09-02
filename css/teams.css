@@ -1,0 +1,86 @@
+.main-teams{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    flex-grow: inherit;
+    justify-content: space-between;
+    
+   
+}
+.main-teams-data{
+    flex-basis: 30%;
+    height: 250px;
+    border: 1px solid lightgray;
+    margin: 9px;
+    border-radius: 3px;
+    padding: 0 30px 0 15px;
+    
+    
+}
+
+div p span{
+    font-size: 0.75em;
+}
+.main-teams-data button{
+    background-color:rgb(209, 4, 4);
+    color: white;
+    border:none;
+}
+.main-teams-data div button{
+    background: rgb(9, 112, 153);
+    color: white;
+    box-shadow: white;
+}
+.add-team{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.add-team span{
+    font-weight: 1px;
+    
+}
+.main-teams-data:hover{
+    box-shadow: gold;
+    border-color: gold;
+}
+*{
+    box-sizing: border-box;
+}
+.add-teams{
+    position: fixed;
+    background-color: rgba(37, 158, 158, 1);
+    z-index: 5em;
+    top: 4em;
+    bottom: 50px;
+    right: 350px;
+    left: 300px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: rgb(19, 19, 240);
+    padding: 0 30px 30px 30px;
+}
+.teams-times{
+        padding: 3px;
+        position: absolute;
+        top: 0;
+        right: 0;         
+}
+.teams-times button{
+    border-radius: 4px;
+   background-color:  green;
+}
+.add-teams-label{
+    color: rgb(61, 50, 216);
+    font-size: 0.85em;
+    font-weight: 500;
+    
+}
+.add-teams-input{
+    margin: 5px 0 0 0;
+    border: 3px solid white; 
+    border-radius: 5px; 
+    width:100%;
+
+}
