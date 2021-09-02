@@ -16,7 +16,7 @@ text-decoration: none;
 .container-main{
     margin: 0 105px 0 45px;
     height: auto;
-    background-image: url('/images/main-background-image 1.jpg');
+    background-image: url('images/main-background-image 1.jpg');
 }
 .main-date{
     display: flex;
